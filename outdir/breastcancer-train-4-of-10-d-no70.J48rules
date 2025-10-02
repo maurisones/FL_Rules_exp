@@ -1,0 +1,15 @@
+*,*,0-4,*,yes,*,*,*,*,recurrence-events
+*,*,5-9,*,yes,*,*,*,*,recurrence-events
+*,*,10-14,*,yes,*,*,*,*,recurrence-events
+*,*,15-19,*,yes,*,*,*,*,recurrence-events
+*,*,20-24,*,yes,*,*,*,*,no-recurrence-events
+*,*,25-29,*,yes,1,*,*,*,no-recurrence-events
+*,*,25-29,*,yes,2,*,*,*,no-recurrence-events
+*,*,25-29,*,yes,3,*,*,*,recurrence-events
+*,*,30-34,*,yes,*,*,*,*,recurrence-events
+*,*,35-39,*,yes,*,*,*,*,recurrence-events
+*,*,40-44,*,yes,*,*,*,*,no-recurrence-events
+*,*,45-49,*,yes,*,*,*,*,no-recurrence-events
+*,*,50-54,*,yes,*,*,*,*,recurrence-events
+*,*,55-59,*,yes,*,*,*,*,recurrence-events
+*,*,*,*,no,*,*,*,*,no-recurrence-events

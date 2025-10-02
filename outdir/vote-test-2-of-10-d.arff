@@ -1,0 +1,66 @@
+@relation vote-weka.filters.unsupervised.attribute.Discretize-B10-M-1.0-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.instance.RemoveFolds-S1-V-N10-F2-weka.filters.unsupervised.attribute.Discretize-B10-M-1.0-Rfirst-last-precision6
+
+@attribute handicapped-infants {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute water-project-cost-sharing {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute adoption-of-the-budget-resolution {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute physician-fee-freeze {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute el-salvador-aid {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute religious-groups-in-schools {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute anti-satellite-test-ban {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute aid-to-nicaraguan-contras {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute mx-missile {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute immigration {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute synfuels-corporation-cutback {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute education-spending {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute superfund-right-to-sue {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute crime {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute duty-free-exports {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute export-administration-act-south-africa {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute Class {democrat,republican}
+
+@data
+
+0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,?,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,?,democrat
+-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,?,democrat
+0.9-inf,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,democrat
+0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,republican
+-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,0.9-inf,republican
+-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,?,democrat
+0.9-inf,0.9-inf,?,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,?,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,democrat
+-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,0.9-inf,republican
+0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,?,0.9-inf,0.9-inf,?,-inf-0.1,-inf-0.1,0.9-inf,?,democrat
+-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,0.9-inf,republican
+0.9-inf,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,?,0.9-inf,0.9-inf,?,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,?,democrat
+-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,republican
+-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,democrat
+0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,?,-inf-0.1,0.9-inf,?,democrat
+-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,republican
+0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,?,?,democrat
+0.9-inf,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,democrat
+-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,0.9-inf,democrat
+-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,0.9-inf,democrat
+-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,democrat
+-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,democrat
+0.9-inf,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,democrat
+-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,democrat
+-inf-0.1,?,?,?,?,?,?,?,?,?,?,?,?,0.9-inf,?,?,republican
+0.9-inf,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,democrat
+0.9-inf,?,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,?,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,democrat
+0.9-inf,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,?,democrat
+0.9-inf,0.9-inf,0.9-inf,?,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,-inf-0.1,?,0.9-inf,democrat
+-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,0.9-inf,0.9-inf,0.9-inf,republican
+0.9-inf,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,democrat
+-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,republican
+0.9-inf,0.9-inf,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,?,0.9-inf,0.9-inf,0.9-inf,0.9-inf,democrat
+-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,0.9-inf,republican
+-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,0.9-inf,republican
+?,0.9-inf,0.9-inf,?,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,democrat
+0.9-inf,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,?,democrat
+-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,republican
+?,?,?,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,democrat
+-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,0.9-inf,democrat
+-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,republican
+0.9-inf,0.9-inf,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,0.9-inf,?,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,?,democrat
+0.9-inf,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,?,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,democrat
+-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,0.9-inf,democrat
+0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,democrat

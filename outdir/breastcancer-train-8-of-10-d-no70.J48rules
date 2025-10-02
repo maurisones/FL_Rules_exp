@@ -1,0 +1,12 @@
+10-19,*,*,*,yes,*,*,*,*,recurrence-events
+20-29,*,*,*,yes,*,*,*,*,recurrence-events
+30-39,*,*,*,yes,*,*,*,*,recurrence-events
+40-49,*,*,*,yes,*,*,*,*,recurrence-events
+50-59,*,*,*,yes,1,*,*,*,recurrence-events
+50-59,*,*,*,yes,2,*,*,*,no-recurrence-events
+50-59,*,*,*,yes,3,*,*,*,recurrence-events
+60-69,*,*,*,yes,*,*,*,*,no-recurrence-events
+70-79,*,*,*,yes,*,*,*,*,recurrence-events
+80-89,*,*,*,yes,*,*,*,*,recurrence-events
+90-99,*,*,*,yes,*,*,*,*,recurrence-events
+*,*,*,*,no,*,*,*,*,no-recurrence-events

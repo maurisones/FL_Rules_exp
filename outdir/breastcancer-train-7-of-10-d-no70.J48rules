@@ -1,0 +1,6 @@
+*,*,*,*,yes,1,*,*,*,no-recurrence-events
+*,lt40,*,*,yes,2,*,*,*,no-recurrence-events
+*,ge40,*,*,yes,2,*,*,*,no-recurrence-events
+*,premeno,*,*,yes,2,*,*,*,recurrence-events
+*,*,*,*,yes,3,*,*,*,recurrence-events
+*,*,*,*,no,*,*,*,*,no-recurrence-events

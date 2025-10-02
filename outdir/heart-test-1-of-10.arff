@@ -1,0 +1,163 @@
+@relation heart-statlog-weka.filters.unsupervised.attribute.Discretize-B10-M-1.0-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.instance.RemoveFolds-S1-N10-F1
+
+@attribute 'agex\'(-inf-33.8]\'' numeric
+@attribute 'agex\'(33.8-38.6]\'' numeric
+@attribute 'agex\'(38.6-43.4]\'' numeric
+@attribute 'agex\'(43.4-48.2]\'' numeric
+@attribute 'agex\'(48.2-53]\'' numeric
+@attribute 'agex\'(53-57.8]\'' numeric
+@attribute 'agex\'(57.8-62.6]\'' numeric
+@attribute 'agex\'(62.6-67.4]\'' numeric
+@attribute 'agex\'(67.4-72.2]\'' numeric
+@attribute 'agex\'(72.2-inf)\'' numeric
+@attribute 'sexx\'(-inf-0.1]\'' numeric
+@attribute 'sexx\'(0.1-0.2]\'' numeric
+@attribute 'sexx\'(0.2-0.3]\'' numeric
+@attribute 'sexx\'(0.3-0.4]\'' numeric
+@attribute 'sexx\'(0.4-0.5]\'' numeric
+@attribute 'sexx\'(0.5-0.6]\'' numeric
+@attribute 'sexx\'(0.6-0.7]\'' numeric
+@attribute 'sexx\'(0.7-0.8]\'' numeric
+@attribute 'sexx\'(0.8-0.9]\'' numeric
+@attribute 'sexx\'(0.9-inf)\'' numeric
+@attribute 'chestx\'(-inf-1.3]\'' numeric
+@attribute 'chestx\'(1.3-1.6]\'' numeric
+@attribute 'chestx\'(1.6-1.9]\'' numeric
+@attribute 'chestx\'(1.9-2.2]\'' numeric
+@attribute 'chestx\'(2.2-2.5]\'' numeric
+@attribute 'chestx\'(2.5-2.8]\'' numeric
+@attribute 'chestx\'(2.8-3.1]\'' numeric
+@attribute 'chestx\'(3.1-3.4]\'' numeric
+@attribute 'chestx\'(3.4-3.7]\'' numeric
+@attribute 'chestx\'(3.7-inf)\'' numeric
+@attribute 'resting_blood_pressurex\'(-inf-104.6]\'' numeric
+@attribute 'resting_blood_pressurex\'(104.6-115.2]\'' numeric
+@attribute 'resting_blood_pressurex\'(115.2-125.8]\'' numeric
+@attribute 'resting_blood_pressurex\'(125.8-136.4]\'' numeric
+@attribute 'resting_blood_pressurex\'(136.4-147]\'' numeric
+@attribute 'resting_blood_pressurex\'(147-157.6]\'' numeric
+@attribute 'resting_blood_pressurex\'(157.6-168.2]\'' numeric
+@attribute 'resting_blood_pressurex\'(168.2-178.8]\'' numeric
+@attribute 'resting_blood_pressurex\'(178.8-189.4]\'' numeric
+@attribute 'resting_blood_pressurex\'(189.4-inf)\'' numeric
+@attribute 'serum_cholestoralx\'(-inf-169.8]\'' numeric
+@attribute 'serum_cholestoralx\'(169.8-213.6]\'' numeric
+@attribute 'serum_cholestoralx\'(213.6-257.4]\'' numeric
+@attribute 'serum_cholestoralx\'(257.4-301.2]\'' numeric
+@attribute 'serum_cholestoralx\'(301.2-345]\'' numeric
+@attribute 'serum_cholestoralx\'(345-388.8]\'' numeric
+@attribute 'serum_cholestoralx\'(388.8-432.6]\'' numeric
+@attribute 'serum_cholestoralx\'(432.6-476.4]\'' numeric
+@attribute 'serum_cholestoralx\'(476.4-520.2]\'' numeric
+@attribute 'serum_cholestoralx\'(520.2-inf)\'' numeric
+@attribute 'fasting_blood_sugarx\'(-inf-0.1]\'' numeric
+@attribute 'fasting_blood_sugarx\'(0.1-0.2]\'' numeric
+@attribute 'fasting_blood_sugarx\'(0.2-0.3]\'' numeric
+@attribute 'fasting_blood_sugarx\'(0.3-0.4]\'' numeric
+@attribute 'fasting_blood_sugarx\'(0.4-0.5]\'' numeric
+@attribute 'fasting_blood_sugarx\'(0.5-0.6]\'' numeric
+@attribute 'fasting_blood_sugarx\'(0.6-0.7]\'' numeric
+@attribute 'fasting_blood_sugarx\'(0.7-0.8]\'' numeric
+@attribute 'fasting_blood_sugarx\'(0.8-0.9]\'' numeric
+@attribute 'fasting_blood_sugarx\'(0.9-inf)\'' numeric
+@attribute 'resting_electrocardiographic_resultsx\'(-inf-0.2]\'' numeric
+@attribute 'resting_electrocardiographic_resultsx\'(0.2-0.4]\'' numeric
+@attribute 'resting_electrocardiographic_resultsx\'(0.4-0.6]\'' numeric
+@attribute 'resting_electrocardiographic_resultsx\'(0.6-0.8]\'' numeric
+@attribute 'resting_electrocardiographic_resultsx\'(0.8-1]\'' numeric
+@attribute 'resting_electrocardiographic_resultsx\'(1-1.2]\'' numeric
+@attribute 'resting_electrocardiographic_resultsx\'(1.2-1.4]\'' numeric
+@attribute 'resting_electrocardiographic_resultsx\'(1.4-1.6]\'' numeric
+@attribute 'resting_electrocardiographic_resultsx\'(1.6-1.8]\'' numeric
+@attribute 'resting_electrocardiographic_resultsx\'(1.8-inf)\'' numeric
+@attribute 'maximum_heart_rate_achievedx\'(-inf-84.1]\'' numeric
+@attribute 'maximum_heart_rate_achievedx\'(84.1-97.2]\'' numeric
+@attribute 'maximum_heart_rate_achievedx\'(97.2-110.3]\'' numeric
+@attribute 'maximum_heart_rate_achievedx\'(110.3-123.4]\'' numeric
+@attribute 'maximum_heart_rate_achievedx\'(123.4-136.5]\'' numeric
+@attribute 'maximum_heart_rate_achievedx\'(136.5-149.6]\'' numeric
+@attribute 'maximum_heart_rate_achievedx\'(149.6-162.7]\'' numeric
+@attribute 'maximum_heart_rate_achievedx\'(162.7-175.8]\'' numeric
+@attribute 'maximum_heart_rate_achievedx\'(175.8-188.9]\'' numeric
+@attribute 'maximum_heart_rate_achievedx\'(188.9-inf)\'' numeric
+@attribute 'exercise_induced_anginax\'(-inf-0.1]\'' numeric
+@attribute 'exercise_induced_anginax\'(0.1-0.2]\'' numeric
+@attribute 'exercise_induced_anginax\'(0.2-0.3]\'' numeric
+@attribute 'exercise_induced_anginax\'(0.3-0.4]\'' numeric
+@attribute 'exercise_induced_anginax\'(0.4-0.5]\'' numeric
+@attribute 'exercise_induced_anginax\'(0.5-0.6]\'' numeric
+@attribute 'exercise_induced_anginax\'(0.6-0.7]\'' numeric
+@attribute 'exercise_induced_anginax\'(0.7-0.8]\'' numeric
+@attribute 'exercise_induced_anginax\'(0.8-0.9]\'' numeric
+@attribute 'exercise_induced_anginax\'(0.9-inf)\'' numeric
+@attribute 'oldpeakx\'(-inf-0.62]\'' numeric
+@attribute 'oldpeakx\'(0.62-1.24]\'' numeric
+@attribute 'oldpeakx\'(1.24-1.86]\'' numeric
+@attribute 'oldpeakx\'(1.86-2.48]\'' numeric
+@attribute 'oldpeakx\'(2.48-3.1]\'' numeric
+@attribute 'oldpeakx\'(3.1-3.72]\'' numeric
+@attribute 'oldpeakx\'(3.72-4.34]\'' numeric
+@attribute 'oldpeakx\'(4.34-4.96]\'' numeric
+@attribute 'oldpeakx\'(4.96-5.58]\'' numeric
+@attribute 'oldpeakx\'(5.58-inf)\'' numeric
+@attribute 'slopex\'(-inf-1.2]\'' numeric
+@attribute 'slopex\'(1.2-1.4]\'' numeric
+@attribute 'slopex\'(1.4-1.6]\'' numeric
+@attribute 'slopex\'(1.6-1.8]\'' numeric
+@attribute 'slopex\'(1.8-2]\'' numeric
+@attribute 'slopex\'(2-2.2]\'' numeric
+@attribute 'slopex\'(2.2-2.4]\'' numeric
+@attribute 'slopex\'(2.4-2.6]\'' numeric
+@attribute 'slopex\'(2.6-2.8]\'' numeric
+@attribute 'slopex\'(2.8-inf)\'' numeric
+@attribute 'number_of_major_vesselsx\'(-inf-0.3]\'' numeric
+@attribute 'number_of_major_vesselsx\'(0.3-0.6]\'' numeric
+@attribute 'number_of_major_vesselsx\'(0.6-0.9]\'' numeric
+@attribute 'number_of_major_vesselsx\'(0.9-1.2]\'' numeric
+@attribute 'number_of_major_vesselsx\'(1.2-1.5]\'' numeric
+@attribute 'number_of_major_vesselsx\'(1.5-1.8]\'' numeric
+@attribute 'number_of_major_vesselsx\'(1.8-2.1]\'' numeric
+@attribute 'number_of_major_vesselsx\'(2.1-2.4]\'' numeric
+@attribute 'number_of_major_vesselsx\'(2.4-2.7]\'' numeric
+@attribute 'number_of_major_vesselsx\'(2.7-inf)\'' numeric
+@attribute 'thalx\'(-inf-3.4]\'' numeric
+@attribute 'thalx\'(3.4-3.8]\'' numeric
+@attribute 'thalx\'(3.8-4.2]\'' numeric
+@attribute 'thalx\'(4.2-4.6]\'' numeric
+@attribute 'thalx\'(4.6-5]\'' numeric
+@attribute 'thalx\'(5-5.4]\'' numeric
+@attribute 'thalx\'(5.4-5.8]\'' numeric
+@attribute 'thalx\'(5.8-6.2]\'' numeric
+@attribute 'thalx\'(6.2-6.6]\'' numeric
+@attribute 'thalx\'(6.6-inf)\'' numeric
+@attribute class {absent,present}
+
+@data
+
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,absent
+0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,absent
+0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,absent
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,absent
+0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,present
+0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,absent
+0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,present
+0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,present
+0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,present
+0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,present
+0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,present
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,absent
+0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,absent
+0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,present
+0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,absent
+0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,present
+0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,present
+0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,absent
+0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,present
+0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,absent
+0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,present
+0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,absent
+0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,present
+0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,present
+0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,absent
+0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,absent
+0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,absent

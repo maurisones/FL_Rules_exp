@@ -1,0 +1,5 @@
+nsamples:196
+nclasses:2
+classnames:democrat,republican
+classdist:123,73
+natt:17

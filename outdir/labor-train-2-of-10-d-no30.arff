@@ -1,0 +1,119 @@
+@relation labor-weka.filters.unsupervised.attribute.Discretize-B10-M-1.0-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.instance.RemoveFolds-S1-V-N10-F2-weka.filters.unsupervised.attribute.Discretize-B10-M-1.0-Rfirst-last-precision6-weka.filters.unsupervised.instance.Resample-S1-Z30.0
+
+@attribute durationx-inf-1.2 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute durationx1.2-1.4 {All}
+@attribute durationx1.4-1.6 {All}
+@attribute durationx1.6-1.8 {All}
+@attribute durationx1.8-2 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute durationx2-2.2 {All}
+@attribute durationx2.2-2.4 {All}
+@attribute durationx2.4-2.6 {All}
+@attribute durationx2.6-2.8 {All}
+@attribute durationx2.8-inf {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-first-yearx-inf-2.5 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-first-yearx2.5-3 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-first-yearx3-3.5 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-first-yearx3.5-4 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-first-yearx4-4.5 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-first-yearx4.5-5 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-first-yearx5-5.5 {All}
+@attribute wage-increase-first-yearx5.5-6 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-first-yearx6-6.5 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-first-yearx6.5-inf {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-second-yearx-inf-2.5 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-second-yearx2.5-3 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-second-yearx3-3.5 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-second-yearx3.5-4 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-second-yearx4-4.5 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-second-yearx4.5-5 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-second-yearx5-5.5 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-second-yearx5.5-6 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-second-yearx6-6.5 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-second-yearx6.5-inf {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-third-yearx-inf-2.31 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-third-yearx2.31-2.62 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-third-yearx2.62-2.93 {All}
+@attribute wage-increase-third-yearx2.93-3.24 {All}
+@attribute wage-increase-third-yearx3.24-3.55 {All}
+@attribute wage-increase-third-yearx3.55-3.86 {All}
+@attribute wage-increase-third-yearx3.86-4.17 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-third-yearx4.17-4.48 {All}
+@attribute wage-increase-third-yearx4.48-4.79 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute wage-increase-third-yearx4.79-inf {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute cost-of-living-adjustmentxnone {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute cost-of-living-adjustmentxtcf {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute cost-of-living-adjustmentxtc {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute working-hoursx-inf-28.3 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute working-hoursx28.3-29.6 {All}
+@attribute working-hoursx29.6-30.9 {All}
+@attribute working-hoursx30.9-32.2 {All}
+@attribute working-hoursx32.2-33.5 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute working-hoursx33.5-34.8 {All}
+@attribute working-hoursx34.8-36.1 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute working-hoursx36.1-37.4 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute working-hoursx37.4-38.7 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute working-hoursx38.7-inf {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute pensionxnone {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute pensionxret_allw {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute pensionxempl_contr {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute standby-payx-inf-3.2 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute standby-payx3.2-4.4 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute standby-payx4.4-5.6 {All}
+@attribute standby-payx5.6-6.8 {All}
+@attribute standby-payx6.8-8 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute standby-payx8-9.2 {All}
+@attribute standby-payx9.2-10.4 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute standby-payx10.4-11.6 {All}
+@attribute standby-payx11.6-12.8 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute standby-payx12.8-inf {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute shift-differentialx-inf-2.5 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute shift-differentialx2.5-5 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute shift-differentialx5-7.5 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute shift-differentialx7.5-10 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute shift-differentialx10-12.5 {All}
+@attribute shift-differentialx12.5-15 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute shift-differentialx15-17.5 {All}
+@attribute shift-differentialx17.5-20 {All}
+@attribute shift-differentialx20-22.5 {All}
+@attribute shift-differentialx22.5-inf {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute education-allowance {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute statutory-holidaysx-inf-9.6 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute statutory-holidaysx9.6-10.2 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute statutory-holidaysx10.2-10.8 {All}
+@attribute statutory-holidaysx10.8-11.4 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute statutory-holidaysx11.4-12 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute statutory-holidaysx12-12.6 {All}
+@attribute statutory-holidaysx12.6-13.2 {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute statutory-holidaysx13.2-13.8 {All}
+@attribute statutory-holidaysx13.8-14.4 {All}
+@attribute statutory-holidaysx14.4-inf {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute vacationxbelow_average {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute vacationxaverage {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute vacationxgenerous {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute longterm-disability-assistance {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute contribution-to-dental-planxnone {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute contribution-to-dental-planxhalf {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute contribution-to-dental-planxfull {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute bereavement-assistance {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute contribution-to-health-planxnone {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute contribution-to-health-planxhalf {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute contribution-to-health-planxfull {-inf-0.1,0.1-0.2,0.2-0.3,0.3-0.4,0.4-0.5,0.5-0.6,0.6-0.7,0.7-0.8,0.8-0.9,0.9-inf}
+@attribute class {bad,good}
+
+@data
+
+0.9-inf,All,All,All,-inf-0.1,All,All,All,All,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0.9-inf,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,0.9-inf,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,-inf-0.1,-inf-0.1,-inf-0.1,All,0.9-inf,-inf-0.1,All,-inf-0.1,All,All,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,bad
+-inf-0.1,All,All,All,0.9-inf,All,All,All,All,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,All,All,All,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,-inf-0.1,-inf-0.1,All,-inf-0.1,0.9-inf,All,-inf-0.1,All,All,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,?,?,?,?,-inf-0.1,?,?,?,bad
+-inf-0.1,All,All,All,0.9-inf,All,All,All,All,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,All,All,All,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,-inf-0.1,-inf-0.1,All,-inf-0.1,0.9-inf,All,-inf-0.1,All,All,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,?,?,?,?,-inf-0.1,?,?,?,bad
+-inf-0.1,All,All,All,0.9-inf,All,All,All,All,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,All,All,All,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,?,?,?,?,?,?,?,?,?,?,?,?,?,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,All,-inf-0.1,All,All,All,-inf-0.1,?,-inf-0.1,-inf-0.1,All,0.9-inf,-inf-0.1,All,-inf-0.1,All,All,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,?,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,good
+-inf-0.1,All,All,All,-inf-0.1,All,All,All,All,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,-inf-0.1,0.9-inf,-inf-0.1,?,?,?,?,?,?,?,?,?,?,-inf-0.1,-inf-0.1,0.9-inf,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,-inf-0.1,?,?,?,?,?,?,?,?,?,?,?,?,?,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,?,?,?,good
+-inf-0.1,All,All,All,-inf-0.1,All,All,All,All,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,All,All,All,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,?,?,?,?,?,?,?,?,?,?,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,All,-inf-0.1,All,All,All,-inf-0.1,?,-inf-0.1,-inf-0.1,All,0.9-inf,-inf-0.1,All,-inf-0.1,All,All,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,?,-inf-0.1,-inf-0.1,0.9-inf,good
+-inf-0.1,All,All,All,0.9-inf,All,All,All,All,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,All,All,All,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,All,-inf-0.1,All,All,All,-inf-0.1,?,-inf-0.1,0.9-inf,All,-inf-0.1,-inf-0.1,All,-inf-0.1,All,All,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,?,0.9-inf,-inf-0.1,-inf-0.1,bad
+-inf-0.1,All,All,All,-inf-0.1,All,All,All,All,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,All,All,All,All,-inf-0.1,All,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,All,All,All,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,good
+-inf-0.1,All,All,All,0.9-inf,All,All,All,All,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,All,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,?,?,?,?,?,?,?,?,?,?,?,?,?,-inf-0.1,All,All,All,-inf-0.1,All,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,?,?,?,?,?,?,?,?,?,?,?,?,?,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,All,-inf-0.1,All,All,All,-inf-0.1,?,-inf-0.1,-inf-0.1,All,-inf-0.1,-inf-0.1,All,-inf-0.1,All,All,0.9-inf,?,?,?,?,-inf-0.1,-inf-0.1,0.9-inf,?,?,?,?,good
+-inf-0.1,All,All,All,0.9-inf,All,All,All,All,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,All,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,All,All,All,-inf-0.1,All,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,?,?,?,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,All,-inf-0.1,All,All,All,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,All,0.9-inf,-inf-0.1,All,-inf-0.1,All,All,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,good
+-inf-0.1,All,All,All,-inf-0.1,All,All,All,All,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,All,All,All,All,-inf-0.1,All,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,All,All,All,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,good
+-inf-0.1,All,All,All,0.9-inf,All,All,All,All,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,?,?,?,-inf-0.1,All,All,All,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,-inf-0.1,-inf-0.1,All,0.9-inf,-inf-0.1,All,-inf-0.1,All,All,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,bad
+0.9-inf,All,All,All,-inf-0.1,All,All,All,All,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,All,All,All,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,All,All,-inf-0.1,All,-inf-0.1,All,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,All,-inf-0.1,All,All,All,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,All,0.9-inf,-inf-0.1,All,-inf-0.1,All,All,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,0.9-inf,0.9-inf,-inf-0.1,-inf-0.1,bad
+-inf-0.1,All,All,All,0.9-inf,All,All,All,All,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,?,?,?,-inf-0.1,All,All,All,-inf-0.1,All,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,?,?,?,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,All,-inf-0.1,All,All,All,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,All,-inf-0.1,0.9-inf,All,-inf-0.1,All,All,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,?,?,?,?,?,?,?,?,good
+-inf-0.1,All,All,All,0.9-inf,All,All,All,All,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,All,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,-inf-0.1,?,?,?,?,?,?,?,?,?,?,-inf-0.1,0.9-inf,-inf-0.1,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,-inf-0.1,-inf-0.1,0.9-inf,All,-inf-0.1,-inf-0.1,All,-inf-0.1,All,All,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,-inf-0.1,0.9-inf,-inf-0.1,-inf-0.1,?,-inf-0.1,0.9-inf,-inf-0.1,good

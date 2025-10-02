@@ -1,0 +1,109 @@
+@relation labor-weka.filters.unsupervised.attribute.Discretize-B10-M-1.0-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-Rfirst-last-weka.filters.unsupervised.instance.RemoveFolds-S1-N10-F8
+
+@attribute 'durationx\'(-inf-1.2]\'' numeric
+@attribute 'durationx\'(1.2-1.4]\'' numeric
+@attribute 'durationx\'(1.4-1.6]\'' numeric
+@attribute 'durationx\'(1.6-1.8]\'' numeric
+@attribute 'durationx\'(1.8-2]\'' numeric
+@attribute 'durationx\'(2-2.2]\'' numeric
+@attribute 'durationx\'(2.2-2.4]\'' numeric
+@attribute 'durationx\'(2.4-2.6]\'' numeric
+@attribute 'durationx\'(2.6-2.8]\'' numeric
+@attribute 'durationx\'(2.8-inf)\'' numeric
+@attribute 'wage-increase-first-yearx\'(-inf-2.5]\'' numeric
+@attribute 'wage-increase-first-yearx\'(2.5-3]\'' numeric
+@attribute 'wage-increase-first-yearx\'(3-3.5]\'' numeric
+@attribute 'wage-increase-first-yearx\'(3.5-4]\'' numeric
+@attribute 'wage-increase-first-yearx\'(4-4.5]\'' numeric
+@attribute 'wage-increase-first-yearx\'(4.5-5]\'' numeric
+@attribute 'wage-increase-first-yearx\'(5-5.5]\'' numeric
+@attribute 'wage-increase-first-yearx\'(5.5-6]\'' numeric
+@attribute 'wage-increase-first-yearx\'(6-6.5]\'' numeric
+@attribute 'wage-increase-first-yearx\'(6.5-inf)\'' numeric
+@attribute 'wage-increase-second-yearx\'(-inf-2.5]\'' numeric
+@attribute 'wage-increase-second-yearx\'(2.5-3]\'' numeric
+@attribute 'wage-increase-second-yearx\'(3-3.5]\'' numeric
+@attribute 'wage-increase-second-yearx\'(3.5-4]\'' numeric
+@attribute 'wage-increase-second-yearx\'(4-4.5]\'' numeric
+@attribute 'wage-increase-second-yearx\'(4.5-5]\'' numeric
+@attribute 'wage-increase-second-yearx\'(5-5.5]\'' numeric
+@attribute 'wage-increase-second-yearx\'(5.5-6]\'' numeric
+@attribute 'wage-increase-second-yearx\'(6-6.5]\'' numeric
+@attribute 'wage-increase-second-yearx\'(6.5-inf)\'' numeric
+@attribute 'wage-increase-third-yearx\'(-inf-2.31]\'' numeric
+@attribute 'wage-increase-third-yearx\'(2.31-2.62]\'' numeric
+@attribute 'wage-increase-third-yearx\'(2.62-2.93]\'' numeric
+@attribute 'wage-increase-third-yearx\'(2.93-3.24]\'' numeric
+@attribute 'wage-increase-third-yearx\'(3.24-3.55]\'' numeric
+@attribute 'wage-increase-third-yearx\'(3.55-3.86]\'' numeric
+@attribute 'wage-increase-third-yearx\'(3.86-4.17]\'' numeric
+@attribute 'wage-increase-third-yearx\'(4.17-4.48]\'' numeric
+@attribute 'wage-increase-third-yearx\'(4.48-4.79]\'' numeric
+@attribute 'wage-increase-third-yearx\'(4.79-inf)\'' numeric
+@attribute cost-of-living-adjustmentxnone numeric
+@attribute cost-of-living-adjustmentxtcf numeric
+@attribute cost-of-living-adjustmentxtc numeric
+@attribute 'working-hoursx\'(-inf-28.3]\'' numeric
+@attribute 'working-hoursx\'(28.3-29.6]\'' numeric
+@attribute 'working-hoursx\'(29.6-30.9]\'' numeric
+@attribute 'working-hoursx\'(30.9-32.2]\'' numeric
+@attribute 'working-hoursx\'(32.2-33.5]\'' numeric
+@attribute 'working-hoursx\'(33.5-34.8]\'' numeric
+@attribute 'working-hoursx\'(34.8-36.1]\'' numeric
+@attribute 'working-hoursx\'(36.1-37.4]\'' numeric
+@attribute 'working-hoursx\'(37.4-38.7]\'' numeric
+@attribute 'working-hoursx\'(38.7-inf)\'' numeric
+@attribute pensionxnone numeric
+@attribute pensionxret_allw numeric
+@attribute pensionxempl_contr numeric
+@attribute 'standby-payx\'(-inf-3.2]\'' numeric
+@attribute 'standby-payx\'(3.2-4.4]\'' numeric
+@attribute 'standby-payx\'(4.4-5.6]\'' numeric
+@attribute 'standby-payx\'(5.6-6.8]\'' numeric
+@attribute 'standby-payx\'(6.8-8]\'' numeric
+@attribute 'standby-payx\'(8-9.2]\'' numeric
+@attribute 'standby-payx\'(9.2-10.4]\'' numeric
+@attribute 'standby-payx\'(10.4-11.6]\'' numeric
+@attribute 'standby-payx\'(11.6-12.8]\'' numeric
+@attribute 'standby-payx\'(12.8-inf)\'' numeric
+@attribute 'shift-differentialx\'(-inf-2.5]\'' numeric
+@attribute 'shift-differentialx\'(2.5-5]\'' numeric
+@attribute 'shift-differentialx\'(5-7.5]\'' numeric
+@attribute 'shift-differentialx\'(7.5-10]\'' numeric
+@attribute 'shift-differentialx\'(10-12.5]\'' numeric
+@attribute 'shift-differentialx\'(12.5-15]\'' numeric
+@attribute 'shift-differentialx\'(15-17.5]\'' numeric
+@attribute 'shift-differentialx\'(17.5-20]\'' numeric
+@attribute 'shift-differentialx\'(20-22.5]\'' numeric
+@attribute 'shift-differentialx\'(22.5-inf)\'' numeric
+@attribute education-allowance numeric
+@attribute 'statutory-holidaysx\'(-inf-9.6]\'' numeric
+@attribute 'statutory-holidaysx\'(9.6-10.2]\'' numeric
+@attribute 'statutory-holidaysx\'(10.2-10.8]\'' numeric
+@attribute 'statutory-holidaysx\'(10.8-11.4]\'' numeric
+@attribute 'statutory-holidaysx\'(11.4-12]\'' numeric
+@attribute 'statutory-holidaysx\'(12-12.6]\'' numeric
+@attribute 'statutory-holidaysx\'(12.6-13.2]\'' numeric
+@attribute 'statutory-holidaysx\'(13.2-13.8]\'' numeric
+@attribute 'statutory-holidaysx\'(13.8-14.4]\'' numeric
+@attribute 'statutory-holidaysx\'(14.4-inf)\'' numeric
+@attribute vacationxbelow_average numeric
+@attribute vacationxaverage numeric
+@attribute vacationxgenerous numeric
+@attribute longterm-disability-assistance numeric
+@attribute contribution-to-dental-planxnone numeric
+@attribute contribution-to-dental-planxhalf numeric
+@attribute contribution-to-dental-planxfull numeric
+@attribute bereavement-assistance numeric
+@attribute contribution-to-health-planxnone numeric
+@attribute contribution-to-health-planxhalf numeric
+@attribute contribution-to-health-planxfull numeric
+@attribute class {bad,good}
+
+@data
+
+0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,?,?,?,?,?,?,?,?,?,?,1,0,0,0,0,0,0,0,0,0,0,1,0,?,?,?,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,?,0,0,0,1,0,0,0,0,0,0,1,0,0,0,?,?,?,?,0,0,1,good
+0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,?,?,?,?,?,?,?,?,?,?,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,bad
+1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,?,1,0,0,bad
+0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,?,?,?,?,?,?,?,?,?,?,1,0,0,0,0,0,0,1,0,0,0,0,0,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,0,0,0,0,0,1,0,0,0,0,0,0,0,1,?,?,?,?,0,0,0,1,good
+0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,good
