@@ -4,7 +4,15 @@
 *,*,*,0-2,*,*,right,*,yes,recurrence-events
 *,*,*,0-2,*,*,left,*,no,no-recurrence-events
 *,*,*,3-5,*,*,left,*,*,recurrence-events
-*,*,*,3-5,*,*,right,*,*,no-recurrence-events
+10-19,*,*,3-5,*,*,right,*,*,no-recurrence-events
+20-29,*,*,3-5,*,*,right,*,*,no-recurrence-events
+30-39,*,*,3-5,*,*,right,*,*,no-recurrence-events
+40-49,*,*,3-5,*,*,right,*,*,no-recurrence-events
+50-59,*,*,3-5,*,*,right,*,*,no-recurrence-events
+60-69,*,*,3-5,*,*,right,*,*,recurrence-events
+70-79,*,*,3-5,*,*,right,*,*,no-recurrence-events
+80-89,*,*,3-5,*,*,right,*,*,no-recurrence-events
+90-99,*,*,3-5,*,*,right,*,*,no-recurrence-events
 *,*,*,6-8,*,*,*,*,*,recurrence-events
 *,*,*,9-11,*,*,*,*,*,no-recurrence-events
 *,*,*,12-14,*,*,*,*,*,no-recurrence-events

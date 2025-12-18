@@ -1,0 +1,13 @@
+*,*,*,9-11,?,*,*,*,*,no-recurrence-events
+*,*,*,0-2,?,*,*,*,*,no-recurrence-events
+*,*,*,15-17,no,*,*,*,*,no-recurrence-events
+*,*,*,6-8,no,*,*,*,*,no-recurrence-events
+*,*,*,3-5,no,*,*,*,*,no-recurrence-events
+*,*,*,0-2,no,*,*,*,*,no-recurrence-events
+*,*,*,9-11,yes,*,*,*,*,recurrence-events
+*,*,*,12-14,yes,*,*,*,*,recurrence-events
+*,*,*,15-17,yes,*,*,*,*,no-recurrence-events
+*,*,*,6-8,yes,*,*,*,*,recurrence-events
+*,*,*,0-2,yes,*,*,*,*,recurrence-events
+*,*,*,24-26,yes,*,*,*,*,no-recurrence-events
+*,*,*,3-5,yes,*,*,*,*,no-recurrence-events

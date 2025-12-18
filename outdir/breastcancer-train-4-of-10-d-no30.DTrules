@@ -1,0 +1,6 @@
+*,*,*,*,yes,3,*,*,*,recurrence-events
+*,*,*,*,no,3,*,*,*,no-recurrence-events
+*,*,*,*,?,2,*,*,*,no-recurrence-events
+*,*,*,*,yes,2,*,*,*,no-recurrence-events
+*,*,*,*,no,2,*,*,*,no-recurrence-events
+*,*,*,*,no,1,*,*,*,no-recurrence-events

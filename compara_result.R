@@ -2,7 +2,7 @@ options(max.print=999999)
 options(digits = 6)
 options(scipen=500)
 library("scmamp")
-library(rlist)
+library(rlist) 
 
 ms <- c("Accuracy", "PrecisionWeightedAvg", "RecallWeightedAvg", "FMeasureWeightedAvg")
 
@@ -17,7 +17,7 @@ ds=c("australian", "breast", "breastcancer", "diabetes", "heart", "hepatitis",
      "ionosphere", "labor", "liver-disorders", "mushroom","sick", "sonar", "tic-tac-toe", "vote") 
 
 # lista de classificadores a serem avaliados
-cs = c("RuleMatchCount", "RuleMatchWeighted", "PureWeka")
+cs = c("RuleMatchCount-J48", "RuleMatchWeighted-J48", "RuleMatchCount-DT", "PureWeka")
 
 input_dir <- "/home/mauri/Dropbox/temp/FL_Rules_exp/"
 setwd(input_dir)
@@ -125,17 +125,26 @@ generate_ranking <- function(data){
   return(retorno)
 }
 
-`obter_valores_RuleMatchCount` <- function(m, d){
+`obter_valores_RuleMatchCount-J48` <- function(m, d){
   
-  cmd <- paste("grep RuleMatchCount out.txt | grep ", m, " | grep \"", paste(d, "-\"", sep=""),  "|cut -d: -f4", sep="")
+  cmd <- paste("grep RuleMatchCount-J48 out.txt | grep ", m, " | grep \"", paste(d, "-\"", sep=""),  "|cut -d: -f4", sep="")
   print(cmd)
   values <- system(cmd, intern = T)
   as.numeric(values)
 }
 
-`obter_valores_RuleMatchWeighted` <- function(m, d){
+`obter_valores_RuleMatchCount-DT` <- function(m, d){
   
-  cmd <- paste("grep RuleMatchWeighted out.txt | grep ", m, " | grep \"", paste(d, "-\"", sep=""),  "|cut -d: -f4", sep="")
+  cmd <- paste("grep RuleMatchCount-DT out.txt | grep ", m, " | grep \"", paste(d, "-\"", sep=""),  "|cut -d: -f4", sep="")
+  print(cmd)
+  values <- system(cmd, intern = T)
+  as.numeric(values)
+}
+
+
+`obter_valores_RuleMatchWeighted-J48` <- function(m, d){
+  
+  cmd <- paste("grep RuleMatchWeighted-J48 out.txt | grep ", m, " | grep \"", paste(d, "-\"", sep=""),  "|cut -d: -f4", sep="")
   print(cmd)
   values <- system(cmd, intern = T)
   as.numeric(values)
@@ -264,7 +273,7 @@ for (g in 1: length(clgroups)){
     
     mcaptions <- paste(m, clsnames[g], sep="-")
     postscript(paste("z", mcaptions,".eps", sep = ""))
-    plotCD(dfn, alpha=0.05, cex=2.5)
+    plotCD(dfn, alpha=0.05, cex=1)
     dev.off()
     
     plotCD(dfn, alpha=0.05, cex=1)

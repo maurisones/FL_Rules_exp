@@ -1,0 +1,5 @@
+nsamples:72
+nclasses:2
+classnames:absent,present
+classdist:41,31
+natt:131

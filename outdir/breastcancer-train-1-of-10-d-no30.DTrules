@@ -1,0 +1,10 @@
+*,lt40,*,*,no,*,*,*,no,no-recurrence-events
+*,premeno,*,*,no,*,*,*,no,no-recurrence-events
+*,ge40,*,*,no,*,*,*,no,no-recurrence-events
+*,premeno,*,*,yes,*,*,*,no,recurrence-events
+*,ge40,*,*,yes,*,*,*,no,no-recurrence-events
+*,premeno,*,*,?,*,*,*,yes,no-recurrence-events
+*,ge40,*,*,no,*,*,*,yes,no-recurrence-events
+*,premeno,*,*,no,*,*,*,yes,recurrence-events
+*,premeno,*,*,yes,*,*,*,yes,no-recurrence-events
+*,ge40,*,*,yes,*,*,*,yes,recurrence-events

@@ -10,7 +10,7 @@ OUTDIR="outdir"
 
 datasets=("australian" "breast" "breastcancer" "diabetes" "heart" "hepatitis" "ionosphere" "labor" "liver-disorders" "mushroom" "sick" "sonar" "tic-tac-toe" "vote")
 
-#datasets=("sick")
+#datasets=("breast" "sonar")
 
 nos=("30" "50" "70")
 
@@ -62,12 +62,17 @@ for ds in ${datasets[*]}; do
         
         done       
         
-        # faz a execução do coordenador RuleMatchCount
-        java -classpath "$WEKAJAR:$FLRULEJAR" run.RunCoordinator RuleMatchCount "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff" "${ds}-${fold}" "3node-RuleMatchCount" $NODEFILELIST 
+        # faz a execução do coordenador RuleMatchCount + J48
+        # aqui o nome do experimento depois do ultimo - determina o file prefix dos nós
+        java -classpath "$WEKAJAR:$FLRULEJAR" run.RunCoordinator RuleMatchCount "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff" "${ds}-${fold}" "3node-RuleMatchCount-J48" $NODEFILELIST 
         
-	# faz a execução do coordenador RuleMatchWeighted
-        java -classpath "$WEKAJAR:$FLRULEJAR" run.RunCoordinator RuleMatchWeighted "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff" "${ds}-${fold}" "3node-RuleMatchWeighted" $NODEFILELIST 
+	# faz a execução do coordenador RuleMatchWeighted + J48
+        java -classpath "$WEKAJAR:$FLRULEJAR" run.RunCoordinator RuleMatchWeighted "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff" "${ds}-${fold}" "3node-RuleMatchWeighted-J48" $NODEFILELIST 
 
+
+ 	# faz a execução do coordenador RuleMatchCount + DT
+        java -classpath "$WEKAJAR:$FLRULEJAR" run.RunCoordinator RuleMatchCount "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff" "${ds}-${fold}" "3node-RuleMatchCount-DT" $NODEFILELIST 
+        
         
         # faz a execução do PureWeka
         java -classpath "$WEKAJAR:$FLRULEJAR" run.RunWekaJ48 "${ds}-${fold}" "${OUTDIR}/${ds}-train-${fold}-of-10-d.arff" 1 "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff"

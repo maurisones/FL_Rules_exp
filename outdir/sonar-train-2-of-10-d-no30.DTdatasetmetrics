@@ -1,0 +1,5 @@
+nsamples:56
+nclasses:2
+classnames:Rock,Mine
+classdist:26,30
+natt:601
