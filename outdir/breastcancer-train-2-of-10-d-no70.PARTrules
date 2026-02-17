@@ -1,0 +1,9 @@
+*,*,*,0-2,*,*,*,left_up,no,no-recurrence-events
+*,*,*,*,*,1,*,*,no,no-recurrence-events
+*,*,30-34,*,*,3,left,left_low,*,no-recurrence-events
+*,*,30-34,*,*,3,*,*,*,recurrence-events
+*,*,*,*,*,*,*,left_up,*,no-recurrence-events
+*,*,*,*,yes,*,*,left_low,*,recurrence-events
+*,*,*,*,*,*,*,*,no,no-recurrence-events
+*,*,30-34,*,*,*,*,*,*,recurrence-events
+*,*,25-29,*,*,*,*,*,*,recurrence-events

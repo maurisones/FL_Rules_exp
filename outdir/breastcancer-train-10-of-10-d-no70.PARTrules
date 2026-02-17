@@ -1,0 +1,8 @@
+*,*,*,0-2,*,2,*,*,*,no-recurrence-events
+*,*,*,*,*,1,*,*,*,no-recurrence-events
+*,*,20-24,*,*,*,*,*,no,no-recurrence-events
+*,*,25-29,*,*,*,right,left_up,*,no-recurrence-events
+*,premeno,30-34,*,*,*,*,*,*,recurrence-events
+*,*,25-29,*,*,*,*,*,*,recurrence-events
+*,*,30-34,*,*,*,*,*,*,no-recurrence-events
+*,*,35-39,*,*,*,*,*,*,no-recurrence-events

@@ -1,0 +1,6 @@
+*,*,*,0-2,*,*,*,left_up,no,no-recurrence-events
+*,*,*,0-2,*,*,left,left_low,no,no-recurrence-events
+*,*,*,*,*,*,*,central,*,no-recurrence-events
+*,*,*,3-5,*,*,right,*,*,no-recurrence-events
+*,*,*,*,yes,*,*,*,*,recurrence-events
+*,premeno,30-34,*,*,*,*,*,*,recurrence-events

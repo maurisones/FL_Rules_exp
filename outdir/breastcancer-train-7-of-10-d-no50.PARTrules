@@ -1,0 +1,15 @@
+*,*,10-14,*,no,*,*,*,*,no-recurrence-events
+*,*,15-19,0-2,no,*,*,*,*,no-recurrence-events
+40-49,*,*,0-2,no,*,*,left_up,*,no-recurrence-events
+*,premeno,*,*,no,*,*,left_low,no,no-recurrence-events
+*,*,*,*,*,*,*,right_low,no,no-recurrence-events
+*,*,*,0-2,*,*,*,right_up,*,no-recurrence-events
+*,*,*,*,*,*,*,right_up,*,recurrence-events
+50-59,*,*,*,*,3,*,left_up,*,no-recurrence-events
+30-39,*,*,*,*,*,*,left_up,*,recurrence-events
+*,*,*,*,*,*,*,left_up,*,no-recurrence-events
+*,*,*,*,*,*,*,central,*,no-recurrence-events
+*,*,15-19,*,*,*,*,left_low,*,recurrence-events
+40-49,*,20-24,*,*,*,*,left_low,*,recurrence-events
+*,*,*,0-2,*,2,*,left_low,*,recurrence-events
+*,*,*,*,*,*,*,*,yes,recurrence-events

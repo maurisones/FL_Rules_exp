@@ -1,0 +1,5 @@
+*,*,*,0-2,*,1,*,*,*,no-recurrence-events
+*,*,*,*,*,2,*,left_low,*,no-recurrence-events
+*,*,*,0-2,*,*,*,*,*,no-recurrence-events
+*,*,*,*,*,3,*,*,*,recurrence-events
+*,*,*,*,*,*,*,left_up,*,no-recurrence-events

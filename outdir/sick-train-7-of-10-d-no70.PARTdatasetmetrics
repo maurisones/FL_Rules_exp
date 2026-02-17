@@ -1,0 +1,5 @@
+nsamples:2376
+nclasses:2
+classnames:negative,sick
+classdist:2233,143
+natt:88

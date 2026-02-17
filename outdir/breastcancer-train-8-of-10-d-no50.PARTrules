@@ -1,0 +1,5 @@
+*,*,10-14,0-2,*,*,*,*,*,no-recurrence-events
+*,*,*,0-2,*,*,*,*,*,no-recurrence-events
+*,*,*,*,*,3,*,*,*,recurrence-events
+50-59,*,*,*,*,*,*,*,*,no-recurrence-events
+*,*,*,3-5,*,*,left,*,*,recurrence-events

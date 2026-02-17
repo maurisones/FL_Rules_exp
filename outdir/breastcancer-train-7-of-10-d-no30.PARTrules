@@ -1,0 +1,12 @@
+*,*,30-34,0-2,*,*,*,*,*,no-recurrence-events
+*,*,10-14,0-2,*,*,*,*,*,no-recurrence-events
+*,*,*,6-8,*,*,*,*,*,recurrence-events
+60-69,*,15-19,0-2,*,*,*,*,*,no-recurrence-events
+60-69,*,*,*,*,3,right,*,*,no-recurrence-events
+50-59,*,*,*,*,*,*,left_up,*,no-recurrence-events
+50-59,premeno,*,*,*,*,*,left_low,*,no-recurrence-events
+60-69,*,*,*,*,*,*,*,*,recurrence-events
+*,*,*,*,*,*,*,right_up,*,recurrence-events
+*,premeno,*,*,*,*,left,left_up,*,recurrence-events
+*,*,*,*,*,*,*,left_up,*,no-recurrence-events
+*,*,*,*,*,*,*,*,no,no-recurrence-events

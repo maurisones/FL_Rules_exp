@@ -1,0 +1,13 @@
+*,*,30-34,0-2,no,*,*,*,*,no-recurrence-events
+*,*,*,0-2,*,*,*,left_up,*,no-recurrence-events
+*,*,*,*,*,1,*,*,*,no-recurrence-events
+*,*,20-24,*,*,*,*,*,*,no-recurrence-events
+*,*,30-34,*,*,*,*,left_up,*,recurrence-events
+*,*,30-34,*,*,*,*,right_low,*,recurrence-events
+50-59,ge40,*,*,*,*,*,*,*,no-recurrence-events
+*,ge40,*,*,*,*,*,*,*,recurrence-events
+*,*,*,*,*,*,*,right_low,*,no-recurrence-events
+*,*,15-19,*,*,*,*,*,*,recurrence-events
+*,*,50-54,*,*,*,*,*,*,recurrence-events
+*,*,0-4,*,*,*,*,*,*,no-recurrence-events
+*,*,*,*,*,2,right,*,*,no-recurrence-events

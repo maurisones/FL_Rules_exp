@@ -73,6 +73,12 @@ for ds in ${datasets[*]}; do
  	# faz a execução do coordenador RuleMatchCount + DT
         java -classpath "$WEKAJAR:$FLRULEJAR" run.RunCoordinator RuleMatchCount "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff" "${ds}-${fold}" "3node-RuleMatchCount-DT" $NODEFILELIST 
         
+	# faz a execução do coordenador RuleMatchCount + PART
+        java -classpath "$WEKAJAR:$FLRULEJAR" run.RunCoordinator RuleMatchCount "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff" "${ds}-${fold}" "3node-RuleMatchCount-PART" $NODEFILELIST 
+        
+	# faz a execução do coordenador RuleMatchWeighted + PART
+        java -classpath "$WEKAJAR:$FLRULEJAR" run.RunCoordinator RuleMatchWeighted "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff" "${ds}-${fold}" "3node-RuleMatchWeighted-PART" $NODEFILELIST 
+
         
         # faz a execução do PureWeka
         java -classpath "$WEKAJAR:$FLRULEJAR" run.RunWekaJ48 "${ds}-${fold}" "${OUTDIR}/${ds}-train-${fold}-of-10-d.arff" 1 "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff"
