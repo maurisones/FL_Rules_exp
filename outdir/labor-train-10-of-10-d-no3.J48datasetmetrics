@@ -1,0 +1,5 @@
+nsamples:16
+nclasses:2
+classnames:bad,good
+classdist:5,11
+natt:99

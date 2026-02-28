@@ -1,0 +1,16 @@
+*,*,30-34,0-2,no,*,*,*,*,no-recurrence-events
+*,*,*,0-2,*,*,*,left_up,*,no-recurrence-events
+*,*,*,*,*,1,*,*,*,no-recurrence-events
+*,*,20-24,*,*,*,*,*,*,no-recurrence-events
+*,*,30-34,*,*,*,*,left_up,*,recurrence-events
+*,*,0-4,*,*,*,*,*,*,no-recurrence-events
+*,*,*,*,*,*,*,central,*,no-recurrence-events
+*,*,30-34,*,yes,*,*,right_low,*,recurrence-events
+60-69,*,*,*,*,*,*,*,*,recurrence-events
+*,ge40,*,*,*,*,*,*,*,no-recurrence-events
+*,*,*,*,*,3,*,*,*,recurrence-events
+*,*,50-54,*,*,*,*,*,*,recurrence-events
+*,*,*,*,*,*,right,*,*,no-recurrence-events
+*,*,15-19,*,*,*,*,left_low,*,recurrence-events
+40-49,*,*,*,*,*,*,left_low,*,recurrence-events
+*,*,*,*,*,*,*,left_low,*,no-recurrence-events

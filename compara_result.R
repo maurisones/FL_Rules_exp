@@ -17,13 +17,14 @@ ds=c("australian", "breast", "breastcancer", "diabetes", "heart", "hepatitis",
      "ionosphere", "labor", "liver-disorders", "mushroom","sick", "sonar", "tic-tac-toe", "vote") 
 
 # lista de classificadores a serem avaliados
-cs = c("RuleMatchCount-J48", "RuleMatchWeighted-J48", "RuleMatchCount-DT", "PureWeka")
+cs = c("RuleMatchCount-PART", "RuleMatchWeighted-PART","RuleMatchCount-J48", "RuleMatchWeighted-J48", 
+       "RuleMatchCount-DT", "PureJ48", "PureDT", "PurePART","RuleMatchCount-Rand", "RuleMatchWeighted-Rand")
 
-input_dir <- "/home/mauri/Dropbox/temp/FL_Rules_exp/"
+input_dir <- "/home/mauri/Downloads/federatedlearning/FL_Rules_exp/"
 setwd(input_dir)
 
 # diretorio onde serão gravados os resultados
-output_dir <- "/home/mauri/Dropbox/temp/FL_Rules_exp/results/"
+output_dir <- "/home/mauri/Downloads/federatedlearning/FL_Rules_exp/results/"
 
 todoscomtodos <- function(n){
   ret <- list()
@@ -133,6 +134,14 @@ generate_ranking <- function(data){
   as.numeric(values)
 }
 
+`obter_valores_RuleMatchCount-PART` <- function(m, d){
+  
+  cmd <- paste("grep RuleMatchCount-PART out.txt | grep ", m, " | grep \"", paste(d, "-\"", sep=""),  "|cut -d: -f4", sep="")
+  print(cmd)
+  values <- system(cmd, intern = T)
+  as.numeric(values)
+}
+
 `obter_valores_RuleMatchCount-DT` <- function(m, d){
   
   cmd <- paste("grep RuleMatchCount-DT out.txt | grep ", m, " | grep \"", paste(d, "-\"", sep=""),  "|cut -d: -f4", sep="")
@@ -141,6 +150,13 @@ generate_ranking <- function(data){
   as.numeric(values)
 }
 
+`obter_valores_RuleMatchCount-Rand` <- function(m, d){
+  
+  cmd <- paste("grep RuleMatchCount-Rand out.txt | grep ", m, " | grep \"", paste(d, "-\"", sep=""),  "|cut -d: -f4", sep="")
+  print(cmd)
+  values <- system(cmd, intern = T)
+  as.numeric(values)
+}
 
 `obter_valores_RuleMatchWeighted-J48` <- function(m, d){
   
@@ -150,13 +166,46 @@ generate_ranking <- function(data){
   as.numeric(values)
 }
 
-`obter_valores_PureWeka` <- function(m, d){
+`obter_valores_RuleMatchWeighted-PART` <- function(m, d){
   
-  cmd <- paste("grep PureWeka out.txt | grep ", m, " | grep \"", paste(d, "-\"", sep=""),  "|cut -d: -f4", sep="")
+  cmd <- paste("grep RuleMatchWeighted-PART out.txt | grep ", m, " | grep \"", paste(d, "-\"", sep=""),  "|cut -d: -f4", sep="")
   print(cmd)
   values <- system(cmd, intern = T)
   as.numeric(values)
 }
+
+`obter_valores_RuleMatchWeighted-Rand` <- function(m, d){
+  
+  cmd <- paste("grep RuleMatchWeighted-Rand out.txt | grep ", m, " | grep \"", paste(d, "-\"", sep=""),  "|cut -d: -f4", sep="")
+  print(cmd)
+  values <- system(cmd, intern = T)
+  as.numeric(values)
+}
+
+`obter_valores_PureJ48` <- function(m, d){
+  
+  cmd <- paste("grep PureWekaJ48 out.txt | grep ", m, " | grep \"", paste(d, "-\"", sep=""),  "|cut -d: -f4", sep="")
+  print(cmd)
+  values <- system(cmd, intern = T)
+  as.numeric(values)
+}
+
+`obter_valores_PureDT` <- function(m, d){
+  
+  cmd <- paste("grep PureWekaDT out.txt | grep ", m, " | grep \"", paste(d, "-\"", sep=""),  "|cut -d: -f4", sep="")
+  print(cmd)
+  values <- system(cmd, intern = T)
+  as.numeric(values)
+}
+
+`obter_valores_PurePART` <- function(m, d){
+  
+  cmd <- paste("grep PureWekaPART out.txt | grep ", m, " | grep \"", paste(d, "-\"", sep=""),  "|cut -d: -f4", sep="")
+  print(cmd)
+  values <- system(cmd, intern = T)
+  as.numeric(values)
+}
+
 
 
 obter_valores <- function(){
@@ -262,7 +311,7 @@ for (g in 1: length(clgroups)){
       
       for (d in ds){
         vl <- as.numeric(df[df$measure == m & df$classifier == c & df$dataset == d,"value"])
-        if (length(vl) != 5){
+        if (length(vl) != 10){
           nvalueserror <- c(nvalueserror, paste(m, c, d, length(vl), sep="-"))
         }
         if (length(vl) > 0){
@@ -273,7 +322,7 @@ for (g in 1: length(clgroups)){
     
     mcaptions <- paste(m, clsnames[g], sep="-")
     postscript(paste("z", mcaptions,".eps", sep = ""))
-    plotCD(dfn, alpha=0.05, cex=1)
+    plotCD(dfn, alpha=0.05, cex=0.5)
     dev.off()
     
     plotCD(dfn, alpha=0.05, cex=1)

@@ -1,0 +1,5 @@
+nsamples:620
+nclasses:2
+classnames:negative,positive
+classdist:226,394
+natt:28

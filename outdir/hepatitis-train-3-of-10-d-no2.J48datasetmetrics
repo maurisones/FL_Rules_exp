@@ -1,0 +1,5 @@
+nsamples:100
+nclasses:2
+classnames:DIE,LIVE
+classdist:15,85
+natt:74

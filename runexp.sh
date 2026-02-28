@@ -8,11 +8,16 @@ WEKAJAR="/home/mauri/Downloads/wekaAndJDK/weka-3-8-6/weka.jar"
 FLRULEJAR="/home/mauri/Dropbox/temp/eclipse_rulesWekaFL/RuleBasedFederateLearing/jarExport/RulesBasedFederatedLearning.jar"
 OUTDIR="outdir"
 
+rm -rf $OUTDIR/*
+
 datasets=("australian" "breast" "breastcancer" "diabetes" "heart" "hepatitis" "ionosphere" "labor" "liver-disorders" "mushroom" "sick" "sonar" "tic-tac-toe" "vote")
 
-#datasets=("breast" "sonar")
+#datasets=("breast")
 
-nos=("30" "50" "70")
+#nos=("71" "72" "31" "70" "21" "51" "73" "22" "32" "52" "11" "15" "25" "23" "33" "34" "74" "26" "34" "35" "11" "15" "25" "23" "33" "34" "74" "26" "34" "35")
+#nos=("71" "72" "31" "70" "21" "51" "73" "22" "32" "52")
+#nos=("71" "72" "31" "70" "21")
+nos=("71" "72" "31")
 
 for ds in ${datasets[*]}; do
 
@@ -50,17 +55,24 @@ for ds in ${datasets[*]}; do
     	sed -i 's/\[//g' "${OUTDIR}/${ds}-train-${fold}-of-10-d.arff"
     	sed -i 's/\[//g' "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff"
     	
+    	# nodeid usado para identificar os arquivos 
+    	nodeid=1
         # gera subconjuntos dos dados para os nós - de acordo com a lista nos
         NODEFILELIST=""
         for no in ${nos[*]}; do
-            java -classpath $WEKAJAR weka.filters.unsupervised.instance.Resample -S 1 -Z $no -i "${OUTDIR}/${ds}-train-${fold}-of-10-d.arff" -o "${OUTDIR}/${ds}-train-${fold}-of-10-d-no${no}.arff"
+            java -classpath $WEKAJAR weka.filters.unsupervised.instance.Resample -S 1 -Z $no -i "${OUTDIR}/${ds}-train-${fold}-of-10-d.arff" -o "${OUTDIR}/${ds}-train-${fold}-of-10-d-no${nodeid}.arff"
         
             # faz a execução do nó
-            java -classpath "$WEKAJAR:$FLRULEJAR" run.RunNode "${OUTDIR}/${ds}-train-${fold}-of-10-d-no${no}.arff" "$OUTDIR/${ds}-train-${fold}-of-10-d-no${no}"
+            java -classpath "$WEKAJAR:$FLRULEJAR" run.RunNode "${OUTDIR}/${ds}-train-${fold}-of-10-d-no${nodeid}.arff" "$OUTDIR/${ds}-train-${fold}-of-10-d-no${nodeid}"
             
-            NODEFILELIST="$NODEFILELIST $OUTDIR/${ds}-train-${fold}-of-10-d-no${no}"            
-        
+            NODEFILELIST="$NODEFILELIST $OUTDIR/${ds}-train-${fold}-of-10-d-no${nodeid}"            
+            
+            nodeid=$((nodeid + 1))        
         done       
+        
+        
+        #echo "==========nodefilelist==============="
+        #echo $NODEFILELIST
         
         # faz a execução do coordenador RuleMatchCount + J48
         # aqui o nome do experimento depois do ultimo - determina o file prefix dos nós
@@ -79,9 +91,15 @@ for ds in ${datasets[*]}; do
 	# faz a execução do coordenador RuleMatchWeighted + PART
         java -classpath "$WEKAJAR:$FLRULEJAR" run.RunCoordinator RuleMatchWeighted "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff" "${ds}-${fold}" "3node-RuleMatchWeighted-PART" $NODEFILELIST 
 
+	# faz a execução do coordenador RuleMatch + RandomRuleGenerator
+        java -classpath "$WEKAJAR:$FLRULEJAR" run.RunCoordinator RuleMatchCount "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff" "${ds}-${fold}" "3node-RuleMatchCount-Rand" $NODEFILELIST 
+
+	# faz a execução do coordenador RuleMatchWeighted + RandomRuleGenerator
+        java -classpath "$WEKAJAR:$FLRULEJAR" run.RunCoordinator RuleMatchWeighted "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff" "${ds}-${fold}" "3node-RuleMatchWeighted-Rand" $NODEFILELIST 
+
         
         # faz a execução do PureWeka
-        java -classpath "$WEKAJAR:$FLRULEJAR" run.RunWekaJ48 "${ds}-${fold}" "${OUTDIR}/${ds}-train-${fold}-of-10-d.arff" 1 "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff"
+        java -classpath "$WEKAJAR:$FLRULEJAR" run.RunWekaPureClassifiers "${ds}-${fold}" "${OUTDIR}/${ds}-train-${fold}-of-10-d.arff" 1 "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff"
         
     done
 	

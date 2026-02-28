@@ -1,0 +1,5 @@
+nsamples:220
+nclasses:2
+classnames:1,2
+classdist:93,127
+natt:61
