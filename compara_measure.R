@@ -37,7 +37,7 @@ for (m in measures){
     dfc <- dfc [-nrow(dfc),]
     
     postscript(paste(output_dir, m, "-", c,"-evolution.eps", sep=""))
-    plotCD(dfc, alpha=0.05, cex=0.5)
+    plotCD(dfc, alpha=0.05, cex=1.3)
     dev.off()
     
   }
