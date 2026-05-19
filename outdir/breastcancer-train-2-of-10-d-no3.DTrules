@@ -1,5 +1,0 @@
-*,*,*,*,yes,*,*,*,no,recurrence-events
-*,*,*,*,no,*,*,*,no,no-recurrence-events
-*,*,*,*,?,*,*,*,yes,no-recurrence-events
-*,*,*,*,no,*,*,*,yes,recurrence-events
-*,*,*,*,yes,*,*,*,yes,no-recurrence-events

@@ -18,7 +18,7 @@ ds=c("australian", "breast", "breastcancer", "diabetes", "heart", "hepatitis",
 
 # lista de classificadores a serem avaliados
 cs = c("RuleMatchCount-PART", "RuleMatchWeighted-PART","RuleMatchCount-J48", "RuleMatchWeighted-J48", 
-       "RuleMatchCount-DT", "PureJ48", "PureDT", "PurePART","RuleMatchCount-Rand", "RuleMatchWeighted-Rand")
+       "RuleMatchCount-DT", "RuleMatchWeighted-DT", "PureJ48", "PureDT", "PurePART","RuleMatchCount-Rand", "RuleMatchWeighted-Rand")
 
 input_dir <- "/home/mauri/Downloads/federatedlearning/FL_Rules_exp/"
 setwd(input_dir)
@@ -149,6 +149,15 @@ generate_ranking <- function(data){
   values <- system(cmd, intern = T)
   as.numeric(values)
 }
+
+`obter_valores_RuleMatchWeighted-DT` <- function(m, d){
+  
+  cmd <- paste("grep RuleMatchWeighted-DT out.txt | grep ", m, " | grep \"", paste(d, "-\"", sep=""),  "|cut -d: -f4", sep="")
+  print(cmd)
+  values <- system(cmd, intern = T)
+  as.numeric(values)
+}
+
 
 `obter_valores_RuleMatchCount-Rand` <- function(m, d){
   

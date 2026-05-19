@@ -5,7 +5,7 @@ export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
 export PATH=/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin:$PATH
 
 WEKAJAR="/home/mauri/Downloads/wekaAndJDK/weka-3-8-6/weka.jar"
-FLRULEJAR="/home/mauri/Dropbox/temp/eclipse_rulesWekaFL/RuleBasedFederateLearing/jarExport/RulesBasedFederatedLearning.jar"
+FLRULEJAR="/home/mauri/Downloads/tempeclipse/RuleBasedFederateLearing/jarExport/RulesBasedFederatedLearning.jar"
 OUTDIR="outdir"
 
 rm -rf $OUTDIR/*
@@ -14,10 +14,24 @@ datasets=("australian" "breast" "breastcancer" "diabetes" "heart" "hepatitis" "i
 
 #datasets=("breast")
 
-#nos=("71" "72" "31" "70" "21" "51" "73" "22" "32" "52" "11" "15" "25" "23" "33" "34" "74" "26" "34" "35" "11" "15" "25" "23" "33" "34" "74" "26" "34" "35")
+
+# percentuais de resample para cada nó - também indica o número de nós da simulação 
+# 30 nós
+nos=("71" "72" "31" "70" "21" "51" "73" "22" "32" "52" "11" "15" "25" "23" "33" "34" "74" "26" "34" "35" "11" "15" "25" "23" "33" "34" "74" "26" "34" "35")
+
+# 20 nós
+#nos=("71" "72" "31" "70" "21" "51" "73" "22" "32" "35" "11" "15" "25" "23" "33" "34" "74" "26" "34" "35")
+
+# 10 nós
 #nos=("71" "72" "31" "70" "21" "51" "73" "22" "32" "52")
+
+# 5 nós
 #nos=("71" "72" "31" "70" "21")
-nos=("71" "72" "31")
+
+# 3 nós
+#nos=("71" "72" "31")
+
+echo "nodes: ${nos[*]}; datasets: ${datasets[*]}"
 
 for ds in ${datasets[*]}; do
 
@@ -84,6 +98,9 @@ for ds in ${datasets[*]}; do
 
  	# faz a execução do coordenador RuleMatchCount + DT
         java -classpath "$WEKAJAR:$FLRULEJAR" run.RunCoordinator RuleMatchCount "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff" "${ds}-${fold}" "3node-RuleMatchCount-DT" $NODEFILELIST 
+
+	# faz a execução do coordenador RuleWeighted + DT
+        java -classpath "$WEKAJAR:$FLRULEJAR" run.RunCoordinator RuleMatchWeighted "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff" "${ds}-${fold}" "3node-RuleMatchWeighted-DT" $NODEFILELIST 
         
 	# faz a execução do coordenador RuleMatchCount + PART
         java -classpath "$WEKAJAR:$FLRULEJAR" run.RunCoordinator RuleMatchCount "${OUTDIR}/${ds}-test-${fold}-of-10-d.arff" "${ds}-${fold}" "3node-RuleMatchCount-PART" $NODEFILELIST 

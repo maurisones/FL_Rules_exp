@@ -9,7 +9,7 @@ output_dir <- "/home/mauri/Downloads/federatedlearning/FL_Rules_exp/"
 measures = c("measures-Accuracy-all", "measures-FMeasureWeightedAvg-all", "measures-PrecisionWeightedAvg-all", "measures-RecallWeightedAvg-all")
 
 algs <- c("RuleMatchCount.PART", "RuleMatchWeighted.PART", "RuleMatchCount.J48",   "RuleMatchWeighted.J48", "RuleMatchCount.DT",     
-           "RuleMatchCount.Rand",    "RuleMatchWeighted.Rand")
+          "RuleMatchWeighted.DT", "RuleMatchCount.Rand",    "RuleMatchWeighted.Rand")
 
 
 generate_ranking <- function(data){
@@ -107,9 +107,6 @@ generate_ranking <- function(data){
 
 
 
-
-
-
 for (m in measures){
   acc3 <- read.csv(paste(output_dir, "results-3/", m,".csv", sep = ""), row.names = 1)
   acc5 <- read.csv(paste(output_dir, "results-5/", m,".csv", sep = ""), row.names = 1)
@@ -146,7 +143,7 @@ for (m in measures){
     rownames(dfc)[nrow(dfc)] <- "Average"
     
     # add rank and media aos resultados
-    ranking <- generate_ranking(dfc)
+    ranking <- generate_ranking(head(dfc,-1)) # head para retirar a linha da média
     ranking <- ranking$rank_average_1
     dfc <- rbind(dfc, colSums(ranking))
     rownames(dfc)[nrow(dfc)] <- "RankSum"
