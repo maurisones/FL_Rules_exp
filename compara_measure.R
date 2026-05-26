@@ -8,7 +8,7 @@ output_dir <- "/home/mauri/Downloads/federatedlearning/FL_Rules_exp/"
 
 measures = c("measures-Accuracy-all", "measures-FMeasureWeightedAvg-all", "measures-PrecisionWeightedAvg-all", "measures-RecallWeightedAvg-all")
 
-algs <- c("RuleMatchCount.PART", "RuleMatchWeighted.PART", "RuleMatchCount.J48",   "RuleMatchWeighted.J48", "RuleMatchCount.DT",     
+algs <- c("RuleMatchCount.J48",   "RuleMatchWeighted.J48", "RuleMatchCount.PART", "RuleMatchWeighted.PART",  "RuleMatchCount.DT",     
           "RuleMatchWeighted.DT", "RuleMatchCount.Rand",    "RuleMatchWeighted.Rand")
 
 
@@ -105,7 +105,7 @@ generate_ranking <- function(data){
 
 
 
-
+friedmanps <- c();
 
 for (m in measures){
   acc3 <- read.csv(paste(output_dir, "results-3/", m,".csv", sep = ""), row.names = 1)
@@ -136,6 +136,8 @@ for (m in measures){
     plotCD(dfc, alpha=0.05, cex=1.3)
     dev.off()
     
+    friedman <- friedmanTest(dfc, )
+    friedmanps <- c(friedmanps, paste(m, c, friedman$p.value, sep=":"))
     
     
     # add average
@@ -152,4 +154,8 @@ for (m in measures){
     
   }
 }
+
+friedmanps
+
+write.csv(friedmanps, "p-values-friedman.csv")
 
