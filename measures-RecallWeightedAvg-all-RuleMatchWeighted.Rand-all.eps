@@ -1,0 +1,692 @@
+%!PS-Adobe-3.0
+%%DocumentNeededResources: font Helvetica
+%%+ font Helvetica-Bold
+%%+ font Helvetica-Oblique
+%%+ font Helvetica-BoldOblique
+%%+ font Symbol
+%%DocumentMedia: a4 595 841 0 () ()
+%%Title: R Graphics Output
+%%Creator: R Software
+%%Pages: (atend)
+%%Orientation: Landscape
+%%BoundingBox: 18 18 577 824
+%%EndComments
+%%BeginProlog
+/bp  { gs sRGB 595.00 0 translate 90 rotate gs } def
+% begin .ps.prolog
+/gs  { gsave } bind def
+/gr  { grestore } bind def
+/ep  { showpage gr gr } bind def
+/m   { moveto } bind def
+/l  { rlineto } bind def
+/np  { newpath } bind def
+/cp  { closepath } bind def
+/f   { fill } bind def
+/o   { stroke } bind def
+/c   { newpath 0 360 arc } bind def
+/r   { 4 2 roll moveto 1 copy 3 -1 roll exch 0 exch rlineto 0 rlineto -1 mul 0 exch rlineto closepath } bind def
+/p1  { stroke } bind def
+/p2  { gsave bg fill grestore newpath } bind def
+/p3  { gsave bg fill grestore stroke } bind def
+/p6  { gsave bg eofill grestore newpath } bind def
+/p7  { gsave bg eofill grestore stroke } bind def
+/t   { 5 -2 roll moveto gsave rotate
+       1 index stringwidth pop
+       mul neg 0 rmoveto show grestore } bind def
+/ta  { 4 -2 roll moveto gsave rotate show } bind def
+/tb  { 2 -1 roll 0 rmoveto show } bind def
+/cl  { grestore gsave newpath 3 index 3 index moveto 1 index
+       4 -1 roll lineto  exch 1 index lineto lineto
+       closepath clip newpath } bind def
+/rgb { setrgbcolor } bind def
+/s   { scalefont setfont } bind def
+% end   .ps.prolog
+/sRGB { [ /CIEBasedABC
+          << /DecodeLMN
+               [ { dup 0.03928 le
+                        {12.92321 div}
+                        {0.055 add 1.055 div 2.4 exp }
+                     ifelse
+                 } bind dup dup
+               ]
+             /MatrixLMN [0.412457 0.212673 0.019334
+                         0.357576 0.715152 0.119192
+                         0.180437 0.072175 0.950301]
+             /WhitePoint [0.9505 1.0 1.0890]
+           >>
+         ] setcolorspace } bind def
+/srgb { setcolor } bind def
+%%IncludeResource: font Helvetica
+/Helvetica findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font1 exch definefont pop
+%%IncludeResource: font Helvetica-Bold
+/Helvetica-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font2 exch definefont pop
+%%IncludeResource: font Helvetica-Oblique
+/Helvetica-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font3 exch definefont pop
+%%IncludeResource: font Helvetica-BoldOblique
+/Helvetica-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font4 exch definefont pop
+%%IncludeResource: font Symbol
+/Symbol findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  currentdict
+  end
+/Font5 exch definefont pop
+%%EndProlog
+%%Page: 1 1
+bp
+18.00 18.00 823.89 577.28 cl
+18.00 18.00 823.89 577.28 cl
+0 0 0 srgb
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+74.53 508.16 m
+692.83 0 l
+o
+np
+74.53 508.16 m
+0 4.84 l
+o
+/Font1 findfont 24 s
+74.53 514.25 (12) .5 0 t
+np
+101.18 508.16 m
+0 4.84 l
+o
+101.18 514.48 (13) .5 0 t
+np
+127.82 508.16 m
+0 4.84 l
+o
+127.82 514.25 (14) .5 0 t
+np
+154.47 508.16 m
+0 4.84 l
+o
+154.47 514.48 (15) .5 0 t
+np
+181.12 508.16 m
+0 4.84 l
+o
+181.12 514.48 (16) .5 0 t
+np
+207.77 508.16 m
+0 4.84 l
+o
+207.77 514.25 (17) .5 0 t
+np
+234.41 508.16 m
+0 4.84 l
+o
+234.41 514.48 (18) .5 0 t
+np
+261.06 508.16 m
+0 4.84 l
+o
+261.06 514.48 (19) .5 0 t
+np
+287.71 508.16 m
+0 4.84 l
+o
+287.71 514.48 (20) .5 0 t
+np
+314.36 508.16 m
+0 4.84 l
+o
+314.36 514.25 (21) .5 0 t
+np
+341.00 508.16 m
+0 4.84 l
+o
+341.00 514.25 (22) .5 0 t
+np
+367.65 508.16 m
+0 4.84 l
+o
+367.65 514.48 (23) .5 0 t
+np
+394.30 508.16 m
+0 4.84 l
+o
+394.30 514.25 (24) .5 0 t
+np
+420.94 508.16 m
+0 4.84 l
+o
+420.94 514.48 (25) .5 0 t
+np
+447.59 508.16 m
+0 4.84 l
+o
+447.59 514.48 (26) .5 0 t
+np
+474.24 508.16 m
+0 4.84 l
+o
+474.24 514.25 (27) .5 0 t
+np
+500.89 508.16 m
+0 4.84 l
+o
+500.89 514.48 (28) .5 0 t
+np
+527.53 508.16 m
+0 4.84 l
+o
+527.53 514.48 (29) .5 0 t
+np
+554.18 508.16 m
+0 4.84 l
+o
+554.18 514.48 (30) .5 0 t
+np
+580.83 508.16 m
+0 4.84 l
+o
+580.83 514.48 (31) .5 0 t
+np
+607.48 508.16 m
+0 4.84 l
+o
+607.48 514.48 (32) .5 0 t
+np
+634.12 508.16 m
+0 4.84 l
+o
+634.12 514.48 (33) .5 0 t
+np
+660.77 508.16 m
+0 4.84 l
+o
+660.77 514.48 (34) .5 0 t
+np
+687.42 508.16 m
+0 4.84 l
+o
+687.42 514.48 (35) .5 0 t
+np
+714.07 508.16 m
+0 4.84 l
+o
+714.07 514.48 (36) .5 0 t
+np
+740.71 508.16 m
+0 4.84 l
+o
+740.71 514.48 (37) .5 0 t
+np
+767.36 508.16 m
+0 4.84 l
+o
+767.36 514.48 (38) .5 0 t
+np
+74.53 542.04 m
+498.85 0 l
+o
+323.95 543.11 (CD) .5 0 t
+np
+74.53 540.83 m
+0 2.42 l
+o
+np
+573.38 540.83 m
+0 2.42 l
+o
+67.87 441.47 (FRMC-R-10) 1 0 t
+np
+69.53 450.09 m
+13.56 0 l
+o
+np
+83.09 450.09 m
+0 58.07 l
+o
+67.87 422.11 (FRMC-R-30) 1 0 t
+np
+69.53 430.73 m
+17.37 0 l
+o
+np
+86.90 430.73 m
+0 77.43 l
+o
+-46.83 402.75 (CentP) 0 ta
+-2.880 (AR) tb
+-0.720 (T) tb gr
+np
+69.53 411.37 m
+17.37 0 l
+o
+np
+86.90 411.37 m
+0 96.79 l
+o
+-125.50 383.62 (FRMW-P) 0 ta
+-2.880 (AR) tb
+-0.720 (T-10) tb gr
+np
+69.53 392.01 m
+37.36 0 l
+o
+np
+106.89 392.01 m
+0 116.15 l
+o
+67.87 364.04 (CentJ48) 1 0 t
+np
+69.53 372.65 m
+53.53 0 l
+o
+np
+123.06 372.65 m
+0 135.51 l
+o
+67.87 344.68 (CentDT) 1 0 t
+np
+69.53 353.29 m
+55.44 0 l
+o
+np
+124.97 353.29 m
+0 154.87 l
+o
+67.87 325.32 (FRMC-R-20) 1 0 t
+np
+69.53 333.94 m
+68.76 0 l
+o
+np
+138.29 333.94 m
+0 174.22 l
+o
+-125.50 306.19 (FRMW-P) 0 ta
+-2.880 (AR) tb
+-0.720 (T-20) tb gr
+np
+69.53 314.58 m
+77.33 0 l
+o
+np
+146.86 314.58 m
+0 193.58 l
+o
+-125.50 286.83 (FRMW-P) 0 ta
+-2.880 (AR) tb
+-0.720 (T-30) tb gr
+np
+69.53 295.22 m
+88.75 0 l
+o
+np
+158.28 295.22 m
+0 212.94 l
+o
+67.87 267.47 (FRMW-R-10) 1 0 t
+np
+69.53 275.86 m
+100.17 0 l
+o
+np
+169.70 275.86 m
+0 232.30 l
+o
+67.87 247.88 (FRMC-DT-10) 1 0 t
+np
+69.53 256.50 m
+101.12 0 l
+o
+np
+170.65 256.50 m
+0 251.66 l
+o
+67.87 228.75 (FRMW-R-20) 1 0 t
+np
+69.53 237.14 m
+104.93 0 l
+o
+np
+174.46 237.14 m
+0 271.02 l
+o
+67.87 209.39 (FRMW-R-30) 1 0 t
+np
+69.53 217.78 m
+164.88 0 l
+o
+np
+234.41 217.78 m
+0 290.38 l
+o
+67.87 190.04 (FRMW-R-5) 1 0 t
+np
+69.53 198.42 m
+203.90 0 l
+o
+np
+273.43 198.42 m
+0 309.74 l
+o
+67.87 170.45 (FRMC-R-5) 1 0 t
+np
+69.53 179.07 m
+216.27 0 l
+o
+np
+285.80 179.07 m
+0 329.09 l
+o
+67.87 151.32 (FRMW-DT-3) 1 0 t
+np
+69.53 159.71 m
+224.84 0 l
+o
+np
+294.37 159.71 m
+0 348.45 l
+o
+-112.16 131.96 (FRMW-P) 0 ta
+-2.880 (AR) tb
+-0.720 (T-5) tb gr
+np
+69.53 140.35 m
+226.74 0 l
+o
+np
+296.27 140.35 m
+0 367.81 l
+o
+67.87 112.60 (FRMW-DT-10) 1 0 t
+np
+69.53 120.99 m
+233.40 0 l
+o
+np
+302.93 120.99 m
+0 387.17 l
+o
+67.87 93.01 (FRMC-DT-5) 1 0 t
+np
+69.53 101.63 m
+261.00 0 l
+o
+np
+330.53 101.63 m
+0 406.53 l
+o
+67.87 73.66 (FRMC-DT-20) 1 0 t
+np
+69.53 82.27 m
+261.00 0 l
+o
+np
+330.53 82.27 m
+0 425.89 l
+o
+-120.17 54.30 (FRMC-P) 0 ta
+-2.880 (AR) tb
+-0.720 (T-20) tb gr
+np
+69.53 62.91 m
+269.57 0 l
+o
+np
+339.10 62.91 m
+0 445.25 l
+o
+67.87 35.17 (FRMW-DT-20) 1 0 t
+np
+69.53 43.55 m
+274.33 0 l
+o
+np
+343.86 43.55 m
+0 464.61 l
+o
+774.02 441.70 (FRMW-DT-30) 0 0 t
+np
+772.36 450.09 m
+-427.55 0 l
+o
+np
+344.81 450.09 m
+0 58.07 l
+o
+774.02 422.34 (FRMW-DT-5) 0 0 t
+np
+772.36 430.73 m
+-426.60 0 l
+o
+np
+345.76 430.73 m
+0 77.43 l
+o
+774.02 402.75 (FRMC-P) 0 ta
+-2.880 (AR) tb
+-0.720 (T-30) tb gr
+np
+772.36 411.37 m
+-424.70 0 l
+o
+np
+347.66 411.37 m
+0 96.79 l
+o
+774.02 383.40 (FRMC-DT-30) 0 0 t
+np
+772.36 392.01 m
+-411.37 0 l
+o
+np
+360.99 392.01 m
+0 116.15 l
+o
+774.02 364.27 (FRMW-P) 0 ta
+-2.880 (AR) tb
+-0.720 (T-3) tb gr
+np
+772.36 372.65 m
+-380.92 0 l
+o
+np
+391.44 372.65 m
+0 135.51 l
+o
+774.02 344.68 (FRMC-DT-3) 0 0 t
+np
+772.36 353.29 m
+-378.06 0 l
+o
+np
+394.30 353.29 m
+0 154.87 l
+o
+774.02 325.55 (FRMW-R-3) 0 0 t
+np
+772.36 333.94 m
+-355.22 0 l
+o
+np
+417.14 333.94 m
+0 174.22 l
+o
+774.02 305.96 (FRMC-P) 0 ta
+-2.880 (AR) tb
+-0.720 (T-10) tb gr
+np
+772.36 314.58 m
+-353.32 0 l
+o
+np
+419.04 314.58 m
+0 193.58 l
+o
+774.02 286.60 (FRMC-J48-10) 0 0 t
+np
+772.36 295.22 m
+-331.43 0 l
+o
+np
+440.93 295.22 m
+0 212.94 l
+o
+774.02 267.47 (FRMW-J48-10) 0 0 t
+np
+772.36 275.86 m
+-300.02 0 l
+o
+np
+472.34 275.86 m
+0 232.30 l
+o
+774.02 248.11 (FRMW-J48-30) 0 0 t
+np
+772.36 256.50 m
+-294.31 0 l
+o
+np
+478.05 256.50 m
+0 251.66 l
+o
+774.02 228.53 (FRMC-P) 0 ta
+-2.880 (AR) tb
+-0.720 (T-5) tb gr
+np
+772.36 237.14 m
+-272.42 0 l
+o
+np
+499.94 237.14 m
+0 271.02 l
+o
+774.02 209.17 (FRMC-J48-20) 0 0 t
+np
+772.36 217.78 m
+-271.47 0 l
+o
+np
+500.89 217.78 m
+0 290.38 l
+o
+774.02 190.04 (FRMW-J48-5) 0 0 t
+np
+772.36 198.42 m
+-268.62 0 l
+o
+np
+503.74 198.42 m
+0 309.74 l
+o
+774.02 170.45 (FRMC-J48-30) 0 0 t
+np
+772.36 179.07 m
+-260.05 0 l
+o
+np
+512.31 179.07 m
+0 329.09 l
+o
+774.02 151.32 (FRMW-J48-20) 0 0 t
+np
+772.36 159.71 m
+-241.02 0 l
+o
+np
+531.34 159.71 m
+0 348.45 l
+o
+774.02 131.73 (FRMC-J48-5) 0 0 t
+np
+772.36 140.35 m
+-225.79 0 l
+o
+np
+546.57 140.35 m
+0 367.81 l
+o
+774.02 112.37 (FRMC-R-3) 0 0 t
+np
+772.36 120.99 m
+-196.29 0 l
+o
+np
+576.07 120.99 m
+0 387.17 l
+o
+774.02 93.24 (FRMW-J48-3) 0 0 t
+np
+772.36 101.63 m
+-187.72 0 l
+o
+np
+584.64 101.63 m
+0 406.53 l
+o
+774.02 73.66 (FRMC-J48-3) 0 0 t
+np
+772.36 82.27 m
+-121.11 0 l
+o
+np
+651.25 82.27 m
+0 425.89 l
+o
+774.02 54.30 (FRMC-P) 0 ta
+-2.880 (AR) tb
+-0.720 (T-3) tb gr
+np
+772.36 62.91 m
+-29.74 0 l
+o
+np
+742.62 62.91 m
+0 445.25 l
+o
+2.25 setlinewidth
+[] 0 setdash
+np
+82.43 488.81 m
+494.31 0 l
+o
+np
+86.23 479.13 m
+499.07 0 l
+o
+np
+157.61 469.45 m
+494.31 0 l
+o
+np
+272.77 459.77 m
+470.51 0 l
+o
+ep
+%%Trailer
+%%Pages: 1
+%%EOF
